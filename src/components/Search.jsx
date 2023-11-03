@@ -36,7 +36,6 @@ const Search = () => {
 
 
     const handleOnChange = (searchData) => {
-        // console.log(searchData)
         setSearch(searchData);
         weather.setSearchCity(searchData.label)
     };

@@ -7,10 +7,8 @@ import FutureForeCastCard from "./components/FutureForeCastCard";
 
 function App() {
   const weather = useWeather();
-  // console.log(weather);
 
   useEffect(() => {
-    // Get Current Location
     weather.fetchCurrentUserLocationData();
     //eslint-disable-next-line
   }, []);

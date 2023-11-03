@@ -16,8 +16,6 @@ export const WeatherProvider = (props) => {
     const responseForecast = await getForecastDataForCity(searchCity);
     setData(response);
     setForecastData(responseForecast)
-    console.log(response)
-    console.log(responseForecast)
   };
 
   const fetchCurrentUserLocationData = () => {
